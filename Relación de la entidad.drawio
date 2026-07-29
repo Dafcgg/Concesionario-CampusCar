@@ -1,0 +1,262 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Modelo ER - Chen" id="er-chen-1">
+    <mxGraphModel dx="2730" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ent_vehiculos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="VEHICULOS" vertex="1">
+          <mxGeometry height="50" width="140" x="875" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_ventas" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="VENTAS" vertex="1">
+          <mxGeometry height="50" width="120" x="640" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_detalleventa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="DETALLE_VENTA" vertex="1">
+          <mxGeometry height="50" width="150" x="1000" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_clientes" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="CLIENTES" vertex="1">
+          <mxGeometry height="50" width="130" x="225" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_vendedores" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="VENDEDORES" vertex="1">
+          <mxGeometry height="50" width="140" x="550" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_mantenimiento" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8ea9c1;strokeColor=#2c3e50;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="MANTENIMIENTO" vertex="1">
+          <mxGeometry height="50" width="160" x="810" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_contiene" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="CONTIENE" vertex="1">
+          <mxGeometry height="70" width="110" x="820" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_realiza" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="REALIZA" vertex="1">
+          <mxGeometry height="70" width="100" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_registra" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="REGISTRA" vertex="1">
+          <mxGeometry height="70" width="100" x="640" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_pertenece" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="PERTENECE" vertex="1">
+          <mxGeometry height="70" width="110" x="910" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_solicita" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="SOLICITA" vertex="1">
+          <mxGeometry height="70" width="100" x="240" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_recibe" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f4d35e;strokeColor=#8a6d00;fontStyle=1;fontSize=12;" value="RECIBE" vertex="1">
+          <mxGeometry height="70" width="100" x="860" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="a_metodopago" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Metodo_Pago" vertex="1">
+          <mxGeometry height="50" width="120" x="600" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="a_total" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Total" vertex="1">
+          <mxGeometry height="50" width="90" x="710" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ventaid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="VentaID (PK)" vertex="1">
+          <mxGeometry height="50" width="120" x="750" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a_fechaventa" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Fecha_Venta" vertex="1">
+          <mxGeometry height="50" width="110" x="480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="a_precioventa" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Precio_Venta" vertex="1">
+          <mxGeometry height="50" width="120" x="1005" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a_detalleid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="DetalleID (PK)" vertex="1">
+          <mxGeometry height="50" width="130" x="1150" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nombre_cli" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Nombre" vertex="1">
+          <mxGeometry height="50" width="100" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a_telefono" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Telefono" vertex="1">
+          <mxGeometry height="50" width="100" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a_correo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Correo" vertex="1">
+          <mxGeometry height="50" width="100" x="50" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a_direccion" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Direccion" vertex="1">
+          <mxGeometry height="50" width="100" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="a_clienteid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="ClienteID (PK)" vertex="1">
+          <mxGeometry height="50" width="130" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nombre_vdr" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Nombre" vertex="1">
+          <mxGeometry height="50" width="100" x="430" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="a_numempleado" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Numero_Empleado" vertex="1">
+          <mxGeometry height="50" width="140" x="580" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="a_fechacontrat" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Fecha_Contratacion" vertex="1">
+          <mxGeometry height="50" width="150" x="350" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vendedorid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="VendedorID (PK)" vertex="1">
+          <mxGeometry height="50" width="140" x="480" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="a_marca" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Marca" vertex="1">
+          <mxGeometry height="50" width="90" x="1060" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="a_modelo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Modelo" vertex="1">
+          <mxGeometry height="50" width="90" x="1160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a_anio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Año" vertex="1">
+          <mxGeometry height="50" width="90" x="1190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vin" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="VIN" vertex="1">
+          <mxGeometry height="50" width="90" x="1190" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="a_precio_veh" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Precio" vertex="1">
+          <mxGeometry height="50" width="90" x="1180" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="a_color" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Color" vertex="1">
+          <mxGeometry height="50" width="90" x="1270" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="a_tipocomb" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Tipo_Combustible" vertex="1">
+          <mxGeometry height="50" width="150" x="1260" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a_tipotrans" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Tipo_Transmision" vertex="1">
+          <mxGeometry height="50" width="150" x="1260" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a_estado" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Estado" vertex="1">
+          <mxGeometry height="50" width="90" x="1125" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="a_disponibilidad" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Disponibilidad" vertex="1">
+          <mxGeometry height="50" width="130" x="1300" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vehiculoid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="VehiculoID (PK)" vertex="1">
+          <mxGeometry height="50" width="140" x="770" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="a_tiposervicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Tipo_Servicio" vertex="1">
+          <mxGeometry height="50" width="120" x="620" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="a_fechaservicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Fecha_Del_Servicio" vertex="1">
+          <mxGeometry height="50" width="150" x="850" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="a_costo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontSize=11;" value="Costo" vertex="1">
+          <mxGeometry height="50" width="90" x="740" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="a_mantenimientoid" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f0ea;strokeColor=#4a7a5d;fontStyle=4;fontSize=11;" value="MantenimientoID (PK)" vertex="1">
+          <mxGeometry height="50" width="170" x="1050" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="ent_ventas" style="endArrow=none;html=1;" target="a_metodopago">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ent_ventas" style="endArrow=none;html=1;" target="a_total">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="ent_ventas" style="endArrow=none;html=1;" target="a_ventaid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="ent_ventas" style="endArrow=none;html=1;" target="a_fechaventa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="ent_detalleventa" style="endArrow=none;html=1;" target="a_precioventa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="ent_detalleventa" style="endArrow=none;html=1;" target="a_detalleid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;" target="a_nombre_cli">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;" target="a_telefono">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;" target="a_correo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;" target="a_direccion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;" target="a_clienteid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ent_vendedores" style="endArrow=none;html=1;" target="a_nombre_vdr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="ent_vendedores" style="endArrow=none;html=1;" target="a_numempleado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="ent_vendedores" style="endArrow=none;html=1;" target="a_fechacontrat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="ent_vendedores" style="endArrow=none;html=1;" target="a_vendedorid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_marca">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_modelo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_anio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_vin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_precio_veh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_color">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_tipocomb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_tipotrans">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e24" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_estado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_disponibilidad">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e26" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;" target="a_vehiculoid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" edge="1" parent="1" source="ent_mantenimiento" style="endArrow=none;html=1;" target="a_tiposervicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" edge="1" parent="1" source="ent_mantenimiento" style="endArrow=none;html=1;" target="a_fechaservicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" source="ent_mantenimiento" style="endArrow=none;html=1;" target="a_costo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="1" source="ent_mantenimiento" style="endArrow=none;html=1;" target="a_mantenimientoid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="ent_ventas" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="rel_contiene" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="rel_contiene" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="ent_detalleventa" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="rel_realiza" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="rel_realiza" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="ent_ventas" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="ent_vendedores" style="endArrow=none;html=1;fontSize=11;fontStyle=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="rel_registra" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" source="rel_registra" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="ent_ventas" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="rel_pertenece" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="rel_pertenece" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="ent_detalleventa" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" edge="1" parent="1" source="ent_clientes" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="rel_solicita" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="rel_solicita" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="ent_mantenimiento" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" edge="1" parent="1" source="ent_vehiculos" style="endArrow=none;html=1;fontSize=11;fontStyle=1;" target="rel_recibe" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="rel_recibe" style="endArrow=none;html=1;fontSize=11;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ent_mantenimiento" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
