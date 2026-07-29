@@ -47,8 +47,3 @@ El modelo fue diseñado utilizando un diagrama UML E-R.
 - Un cliente puede realizar múltiples compras.
 - Un vendedor puede realizar múltiples ventas.
 - Los vehículos vendidos cambian su estado de disponibilidad.
-
-
-# Licencia
-
-Proyecto desarrollado únicamente con fines académicos.
